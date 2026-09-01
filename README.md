@@ -34,7 +34,7 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 ## Commit vs Push
 Commit: Commit dalam github itu jika kita sudah membuat/merubah sebuah code yang sudah ada di repository, kita akan men-commit perubahan code kita menggunakan terminal dengan cara 'cd project', lalu 'git add' untuk menambahkan file codingan yang berubah ke local, dan untuk commit perubahan dengan cara 'git commit -m "feat: add navbar"' yang bertujuan jika kita push nanti, kita atau orang lain dapat melihat dokumentasi atau penjelasan apa saja yang berubah atau ditambahkan di file ini
 
-Push: Setelah commit, kita perlu push untuk istilahnya mengupload hasil commit kita yang tadi di local, ke githubnya dan akan keliatan commit yang sudah tadi di lakukan
+Push: Setelah commit, kita perlu push untuk istilahnya mengupload hasil commit kita yang tadi di local, ke githubnya dan akan keliatan commit yang sudah tadi di lakukan.
 
 ## Reproducibility
 (tulis di sini)
