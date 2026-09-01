@@ -29,10 +29,18 @@ func Sapa(nama string) string {
 // string siap cetak (lihat contoh format di SOAL.md).
 func CetakInfo(nama string) string {
 	return fmt.Sprintf(
+<<<<<<< HEAD
 		"Nama mahasiswa: %s\nNRP mahasiswa: %s \n%s",
 		nama,
 		NRP,
 		runtime.Version(),
+=======
+		"Nama: %s\nNRP: %s \n%s %s",
+		nama,
+		NRP,
+		runtime.Version(),
+		Sapa(nama),
+>>>>>>> fitur-sapaan
 	)
 }
 
