@@ -40,7 +40,7 @@ Push: Setelah commit, kita perlu push untuk istilahnya mengupload hasil commit k
 Jika satu orang menggunakan versi yang go yang lama, tidak akan bisa di compile. Solusinya adalah memakai docker
 
 ## Catatan Merge Conflict
-(tulis di sini)
+Merge conflict terjadi tergantung di baris yang di edit, untuk kasus ini di bagian function CetakInfo di karenakan branch line function return nya antara branch main dan branch fitur-sapaan berbeda, sehingga muncul nya conflict merge dan untuk mengatasinya mungkin di periksa lagi codingannya dan kira kira yang sangat diperlukan yang mana atau menyesuaikan dokumentasi yang ada seperti apa.
 
 ## Kenapa .gitignore Penting
 (tulis di sini)
