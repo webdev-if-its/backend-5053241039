@@ -37,7 +37,7 @@ Commit: Commit dalam github itu jika kita sudah membuat/merubah sebuah code yang
 Push: Setelah commit, kita perlu push untuk istilahnya mengupload hasil commit kita yang tadi di local, ke githubnya dan akan keliatan commit yang sudah tadi di lakukan.
 
 ## Reproducibility
-(tulis di sini)
+Jika satu orang menggunakan versi yang go yang lama, tidak akan bisa di compile. Solusinya adalah memakai docker
 
 ## Catatan Merge Conflict
 (tulis di sini)
