@@ -1,4 +1,4 @@
-# backend-nrp
+# backend-5053241039
 
 Repo tugas mata kuliah **Pengembangan Backend Dasar**, dibuat dari template [`webdev-if-its/backend-template`](https://github.com/webdev-if-its/backend-template). Ganti judul di atas jadi nama repo kalian sendiri (`backend-nrp`, contoh: `backend-5025201012`).
 
@@ -27,12 +27,14 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-01/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Handhika Putra Widyartono
+- NRP: 5053241039
+- Kelas: M
 
 ## Commit vs Push
-(tulis di sini)
+Commit: Commit dalam github itu jika kita sudah membuat/merubah sebuah code yang sudah ada di repository, kita akan men-commit perubahan code kita menggunakan terminal dengan cara 'cd project', lalu 'git add' untuk menambahkan file codingan yang berubah ke local, dan untuk commit perubahan dengan cara 'git commit -m "feat: add navbar"' yang bertujuan jika kita push nanti, kita atau orang lain dapat melihat dokumentasi atau penjelasan apa saja yang berubah atau ditambahkan di file ini
+
+Push: Setelah commit, kita perlu push untuk istilahnya mengupload hasil commit kita yang tadi di local, ke githubnya dan akan keliatan commit yang sudah tadi di lakukan
 
 ## Reproducibility
 (tulis di sini)
