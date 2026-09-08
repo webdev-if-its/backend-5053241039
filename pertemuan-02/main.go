@@ -65,7 +65,14 @@ func ValidasiPesanan(qty []int, hargaSatuan []float64) (bool, string) {
 }
 
 func TentukanStatus(total float64) string {
-	panic("belum diimplementasikan")
+	if total > 1_000_000 {
+		return "Prioritas"
+	}
+
+	if total > 100_000 {
+		return "Reguler"
+	}
+	return "Hemat"
 }
 
 func RingkasanPesanan(qty []int, hargaSatuan []float64, tarifPajak float64) string {
