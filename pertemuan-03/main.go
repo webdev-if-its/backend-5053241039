@@ -48,7 +48,7 @@ func LihatTugas(toko *TokoTugas, id int) (Task, error) {
 		}
 	}
 
-	return Task{}, nil
+	return Task{}, ErrTugasTidakDitemukan
 }
 
 func HapusTugas(toko *TokoTugas, id int) error {
