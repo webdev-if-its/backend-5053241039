@@ -95,7 +95,17 @@ func HapusTugasTercatat(toko *TokoTugas, id int) error {
 // menangkapnya lewat recover dan mengembalikannya sebagai error biasa,
 // alih-alih membiarkan panic itu merambat dan menghentikan program.
 func AmankanPanggilan(fn func() error) (err error) {
-	panic("belum diimplementasikan")
+	defer func() {
+		recover := recover()
+
+		if recover != nil {
+			err = fmt.Errorf("operasi gagal: %v", recover)
+		}
+	}()
+
+	err = fn()
+
+	return err
 }
 
 // AmankanHandler membungkus next: kalau next panic saat memproses satu
