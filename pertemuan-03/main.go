@@ -112,7 +112,17 @@ func AmankanPanggilan(fn func() error) (err error) {
 // request, server tetap hidup untuk request-request lain (request yang
 // panic itu dijawab status 500).
 func AmankanHandler(next http.HandlerFunc) http.HandlerFunc {
-	panic("belum diimplementasikan")
+	return func(w http.ResponseWriter, r *http.Request) {
+		defer func() {
+			recover := recover()
+
+			if recover != nil {
+				w.WriteHeader(http.StatusInternalServerError)
+			}
+		}()
+
+		next(w, r)
+	}
 }
 
 // RekapStatus menghitung berapa tugas yang sudah selesai dan berapa yang
